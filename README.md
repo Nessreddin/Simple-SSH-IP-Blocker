@@ -45,21 +45,21 @@ Unblocking IPs
 
 # Setup 
 
-dnf install python
+    dnf install python
 
-dnf install mongodb*
+    dnf install mongodb*
 
-dnf install syslog*
+    dnf install syslog*
 
-dnf install sshd
+    dnf install sshd
 
-systemctl start syslog.service
+    systemctl start syslog.service
 
-systemctl start mongod.service
+    systemctl start mongod.service
 
-systemctl start sshd.service
+    systemctl start sshd.service
 
 Modify addtocron.sh to point to your python directory, and script.
 
-./addtocron.sh
+    ./addtocron.sh
 
