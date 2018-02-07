@@ -1,8 +1,5 @@
-# Simple-SSH-IP-Blocker
+# Simple-IP-Blocker
 
-[[TOC]]
-
-# Introduction 
 
 The purpose of this assignment is to design, implement and test a monitor application that will detect password guessing attempts against a service and block that IP using Netfilter. 
 
