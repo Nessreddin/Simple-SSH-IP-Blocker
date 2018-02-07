@@ -1,7 +1,5 @@
 # Simple-SSH-IP-Blocker
 
-# Table of Contents
-
 [[TOC]]
 
 # Introduction 
