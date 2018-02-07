@@ -1,0 +1,10 @@
+dnf install python
+dnf install mongodb*
+dnf install syslog*
+dnf install sshd
+
+systemctl start syslog.service
+systemctl start mongod.service
+systemctl start sshd.service
+
+./addtocron.sh
